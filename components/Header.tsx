@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Header(){return <header className="header"><div className="container nav"><Link className="brand" href="/"><span className="brand-mark">ن</span><span>نخبة <b>الترميم</b><small>للمقاولات والترميم</small></span></Link><nav><Link href="/">الرئيسية</Link><Link href="/about">من نحن</Link><Link href="/services">خدماتنا</Link><Link href="/projects">أعمالنا</Link><Link href="/blog">المدونة</Link><Link href="/contact">تواصل معنا</Link></nav><a className="nav-cta" href="tel:+966574227626">اتصل بنا</a></div></header>}

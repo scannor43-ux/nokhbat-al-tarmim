@@ -1,0 +1,2 @@
+import {site} from '@/lib/site';
+export default function ContactActions(){return <div className="floating-actions"><a className="float-wa" href={`https://wa.me/${site.whatsapp}?text=${encodeURIComponent('مرحباً، أرغب بالاستفسار عن خدمات نخبة الترميم.')}`} target="_blank" rel="noreferrer" aria-label="تواصل عبر واتساب">واتساب</a><a className="float-call" href="tel:+966574227626" aria-label="اتصال هاتفي">اتصل الآن</a></div>}
